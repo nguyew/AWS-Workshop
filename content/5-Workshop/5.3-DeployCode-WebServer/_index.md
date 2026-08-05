@@ -8,23 +8,23 @@ pre : " <b> 5.3. </b> "
 
 + Vào EC2
 
-![ec2](/aws_internship/images/5-Workshop/5.3-Deploy-Config/12.png)
+![ec2](/AWS-Workshop/images/5-Workshop/5.3-Deploy-Config/12.png)
 
 + Vào Instance và bấm connect
 
-![ec2](/aws_internship/images/5-Workshop/5.3-Deploy-Config/13.png)
+![ec2](/AWS-Workshop/images/5-Workshop/5.3-Deploy-Config/13.png)
 
 + Check status 3/3 và chọn SSM Session Manager
 
-![ec2](/aws_internship/images/5-Workshop/5.3-Deploy-Config/14.png)
+![ec2](/AWS-Workshop/images/5-Workshop/5.3-Deploy-Config/14.png)
 
 + Bấm connect
 
-![ec2](/aws_internship/images/5-Workshop/5.3-Deploy-Config/15.png)
+![ec2](/AWS-Workshop/images/5-Workshop/5.3-Deploy-Config/15.png)
 
 + Sau khi bấm connect sẽ tự động chuyển sang system manager
 
-![ec2](/aws_internship/images/5-Workshop/5.3-Deploy-Config/16.png)
+![ec2](/AWS-Workshop/images/5-Workshop/5.3-Deploy-Config/16.png)
 
 ## Triển khai ứng dụng Splitly trên EC2
 

@@ -64,34 +64,34 @@ Gắn IAM permission policy sau vào tài khoản aws user của bạn để tri
 
 #### Khởi tạo tài nguyên bằng CloudFormation
 
-![create stack](/aws_internship/images/5-Workshop/5.2-Prerequisite/1.png)
+![create stack](/AWS-Workshop/images/5-Workshop/5.2-Prerequisite/1.png)
 
 + Nhấn create with new source
 
-![create stack](/aws_internship/images/5-Workshop/5.2-Prerequisite/2.png)
+![create stack](/AWS-Workshop/images/5-Workshop/5.2-Prerequisite/2.png)
 
 + Chọn load file yaml để tạo stack
 
-![create stack](/aws_internship/images/5-Workshop/5.2-Prerequisite/3.png)
+![create stack](/AWS-Workshop/images/5-Workshop/5.2-Prerequisite/3.png)
 
-![create stack](/aws_internship/images/5-Workshop/5.2-Prerequisite/4.png)
+![create stack](/AWS-Workshop/images/5-Workshop/5.2-Prerequisite/4.png)
 
 + Nhập tên stack và email để nhận alert từ sns alarm notification
 
-![create stack](/aws_internship/images/5-Workshop/5.2-Prerequisite/5.png)
+![create stack](/AWS-Workshop/images/5-Workshop/5.2-Prerequisite/5.png)
 
-![create stack](/aws_internship/images/5-Workshop/5.2-Prerequisite/6.png)
+![create stack](/AWS-Workshop/images/5-Workshop/5.2-Prerequisite/6.png)
 
 + Thêm tag
 
-![create stack](/aws_internship/images/5-Workshop/5.2-Prerequisite/7.png)
+![create stack](/AWS-Workshop/images/5-Workshop/5.2-Prerequisite/7.png)
 
-![create stack](/aws_internship/images/5-Workshop/5.2-Prerequisite/8.png)
+![create stack](/AWS-Workshop/images/5-Workshop/5.2-Prerequisite/8.png)
 
 + Sau khi xong bấm submit va đơi quá trình triển khai CloudFormation hoàn thành.
 
-![finish](/aws_internship/images/5-Workshop/5.2-Prerequisite/10.png)
+![finish](/AWS-Workshop/images/5-Workshop/5.2-Prerequisite/10.png)
 
 + Các tài nguyên đã được tạo
 
-![finish](/aws_internship/images/5-Workshop/5.2-Prerequisite/11.png)
+![finish](/AWS-Workshop/images/5-Workshop/5.2-Prerequisite/11.png)
