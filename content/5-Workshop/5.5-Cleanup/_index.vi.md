@@ -1,37 +1,24 @@
 ---
 title : "Dọn dẹp tài nguyên"
-date : 2024-01-01
-weight : 6
+date : 2026-08-02
+weight : 5
 chapter : false
-pre : " <b> 5.6. </b> "
+pre : " <b> 5.5. </b> "
 ---
 
 #### Dọn dẹp tài nguyên
 
-Xin chúc mừng bạn đã hoàn thành xong lab này!
-Trong lab này, bạn đã học về các mô hình kiến trúc để truy cập Amazon S3 mà không sử dụng Public Internet.
+Xin chúc mừng bạn đã hoàn thành lab!
 
-+ Bằng cách tạo Gateway endpoint, bạn đã cho phép giao tiếp trực tiếp giữa các tài nguyên EC2 và Amazon S3, mà không đi qua Internet Gateway.
-Bằng cách tạo Interface endpoint, bạn đã mở rộng kết nối S3 đến các tài nguyên chạy trên trung tâm dữ liệu trên chỗ của bạn thông qua AWS Site-to-Site VPN hoặc Direct Connect.
+Để tránh phát sinh chi phí, hãy truy cập **AWS CloudFormation**, chọn stack đã tạo và nhấn **Delete**.
 
-#### Dọn dẹp
-1. Điều hướng đến Hosted Zones trên phía trái của bảng điều khiển Route 53. Nhấp vào tên của  s3.us-east-1.amazonaws.com zone. Nhấp vào Delete và xác nhận việc xóa bằng cách nhập từ khóa "delete".
+CloudFormation sẽ tự động xóa các tài nguyên thuộc stack.
 
-![hosted zone](/AWS-Workshop/images/5-Workshop/5.6-Cleanup/delete-zone.png)
 
-2. Disassociate Route 53 Resolver Rule - myS3Rule from "VPC Onprem" and Delete it. 
+#### Dọn dẹp 
 
-![hosted zone](/AWS-Workshop/images/5-Workshop/5.6-Cleanup/vpc.png)
++ Mở console của CloudFormation và xóa stack CloudFormation mà bạn đã tạo:
 
-4.Mở console của CloudFormation và xóa hai stack CloudFormation mà bạn đã tạo cho bài thực hành này:
-+ PLOnpremSetup
-+ PLCloudSetup
+![delete stack](/AWS-Workshop/images/5-Workshop/5.5-Cleanup/1.png)
 
-![delete stack](/AWS-Workshop/images/5-Workshop/5.6-Cleanup/delete-stack.png)
-
-5. Xóa các S3 bucket
-
-+ Mở bảng điều khiển S3
-+ Chọn bucket chúng ta đã tạo cho lab, nhấp chuột và xác nhận là empty. Nhấp Delete và xác nhận delete.
-+ 
-![delete s3](/AWS-Workshop/images/5-Workshop/5.6-Cleanup/delete-s3.png)
+![delete stack](/AWS-Workshop/images/5-Workshop/5.5-Cleanup/2.png)
